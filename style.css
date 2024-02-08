@@ -1,0 +1,881 @@
+body{
+    background-image: url(src/img/fondoo.png);
+    background-size: cover;
+}
+
+.barra{
+    font-family:'Courier New', Courier, monospace;
+    transition: transform 0.05s ease;
+}
+
+.barra:hover{
+    transform: scale(1.01);
+}
+
+nav {
+    background-color: #333;
+    padding: 1%;
+    text-align: center;
+    transition: transform 0.10s ease;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 1% 2%;
+    margin: 0 1%;
+    font-size: 16%;
+}
+
+.txt-1{
+    text-align: center;
+}
+
+.hola{
+    font-size: 650%;
+    font-family: 'Protest Strike', sans-serif;
+}
+
+.mucho-gusto{
+    font-size: 550%;
+    font-family:'Courier New', Courier, monospace;
+    margin-top: -4%;
+    word-spacing: -25px;
+    letter-spacing: -5px;
+}
+
+.nombre{
+    font-size: 550%;
+    font-family:'Courier New', Courier, monospace;
+    margin-top: -4%;
+    word-spacing: -25px;
+    letter-spacing: -5px;
+}
+
+.developer{
+    font-size: 170%;
+    font-family: 'Protest Strike', sans-serif;
+    margin-top: -2.7%;
+}
+
+.parrafo1{
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    letter-spacing: -0.5px; 
+}
+
+.foto1{
+    width: 15%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.lenguajes1{
+    display: flex;
+    justify-content: center;
+}
+
+.leng{
+    transition: transform 0.2s ease;
+    margin-top: 2%;
+    width: 2.5%;
+    margin-right: 1%;
+    margin-bottom: 2%;
+}
+
+.leng:hover{
+    transform: scale(1.1);
+}
+
+.txt2{
+    display: flex;
+    text-align: center;
+    margin-left: 2%;
+}
+
+.columna{
+    flex: 1;
+    padding: 3%;
+    display: flex;
+}
+
+.foto2{
+    width: 70%;
+    height: 45%;
+    padding-right: 11%;
+    margin-top: 15%;
+}
+
+.soy-david{
+    font-size: 250%;
+    font-family: 'Protest Strike', sans-serif;
+    margin-top: -4%;
+}
+
+.developer2{
+    font-size: 100%;
+    font-family: 'Protest Strike', sans-serif;
+    margin-top: -4%;
+}
+
+.parrafo2{
+    font-size: 83%;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.datos{
+    font-size: 250%;
+    font-family: 'Protest Strike', sans-serif;
+    margin-top: -4%;
+}
+
+#icono{
+    font-size: 150%;
+}
+
+.datosper{
+    text-align: justify;
+    font-size: 90%;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.dyp{
+    margin-left: 7%;
+}
+
+.contactame{
+    font-size: 150%;
+    font-family: 'Protest Strike', sans-serif;
+    margin-top: 13%;
+}
+
+#wsp{
+    font-size: 170%;
+    color: rgb(1, 82, 1);
+}
+
+.bi bi-whatsapp{
+    transition: transform 0.2s ease;
+}
+
+.bi bi-whatsapp{
+    transform: scale(1.1);
+}
+
+.txt4{
+    text-align: center;
+}
+
+.mis-skills{
+    font-size: 250%;
+    font-family: 'Protest Strike', sans-serif;
+    margin-top: 2%;
+    
+}
+
+.parrafo-skills{
+    font-size: 83%;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.skills-lenguajes{
+    display: flex;
+    align-items: center;
+}
+
+.txt-leng{
+    font-size: 125%;
+    font-family: 'Protest Strike', sans-serif;
+    margin-left: 40%;
+}
+
+.lenguajess{
+    transition: transform 0.3s ease;
+    width: 3.5%;
+    margin-right: 0.5%;
+}
+
+.lenguajess:hover{
+    transform: scale(1.2);
+}
+
+.proyectos{
+    font-size: 250%;
+    font-family: 'Protest Strike', sans-serif;
+    margin-top: 2%;
+    text-align: center;
+}
+
+.pry-api{
+    width: 60%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.pry-api:hover{
+    transform: scale(1.03);
+}
+
+.proyecTOS{
+    display: flex;
+    justify-content: center;
+}
+
+.txt3{
+    text-align: center;
+    display: flex;
+}
+
+.columna1{
+    margin-top: 2.5%;
+    display: flex;
+    justify-content: center;
+}
+
+.titulos{
+    text-align: center;
+}
+
+.titulos-proyectos{
+    font-size: 130%;
+    font-family: 'Protest Strike', sans-serif;
+}
+
+@media screen and (max-width: 600px) {
+
+    nav {
+        background-color: #333;
+        padding: 2%;
+        text-align: center;
+        transition: transform 0.10s ease;
+    }
+
+    nav a {
+        padding: 50%;
+        font-size: 10px;	
+    }
+
+    .hola{
+        font-size: 420%;
+        font-family: 'Protest Strike', sans-serif;
+    }
+    
+    .mucho-gusto{
+        font-size: 370%;
+        font-family:'Courier New', Courier, monospace;
+        margin-top: -7%;
+        word-spacing: -25px;
+        letter-spacing: -5px;
+    }
+    
+    .nombre{
+        font-size: 350%;
+        font-family:'Courier New', Courier, monospace;
+        margin-top: -8.5%;
+        word-spacing: -25px;
+        letter-spacing: -5px;
+    }
+    
+    .developer{
+        font-size: 90%;
+        font-family: 'Protest Strike', sans-serif;
+        margin-top: -5%;
+    }
+
+    .parrafo1{
+        font-family:'Courier New', Courier, monospace;
+        font-weight: bold;
+        font-size: 80%;
+        letter-spacing: -0.5px; 
+        margin-top: -1%;
+    }
+
+    .foto1{
+        width: 25%;
+        height: auto;
+        border-radius: 50%;
+    }
+    
+    .lenguajes1{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .leng{
+        transition: transform 0.2s ease;
+        margin-top: 3%;
+        width: 4%;
+        margin-right: 1%;
+        margin-bottom: 3%;
+    }
+
+    .columna{
+        flex: 1;
+        padding: 2%;
+        display: flex;
+    }
+    
+    .foto2{
+        width: 40%;
+        height: 30%;
+        padding-right: 11%;
+        margin-top: 45%;
+    }
+    
+    .soy-david{
+        font-size: 150%;
+        font-family: 'Protest Strike', sans-serif;
+        margin-top: 10%;
+    }
+    
+    .developer2{
+        font-size: 70%;
+        font-family: 'Protest Strike', sans-serif;
+        margin-top: -4%;
+    }
+    
+    .parrafo2{
+        font-size: 60%;
+        font-family:'Courier New', Courier, monospace;
+        font-weight: bold;
+        text-align: justify;
+    }
+    
+    .datos{
+        font-size: 150%;
+        font-family: 'Protest Strike', sans-serif;
+        margin-top: 7%;
+    }
+    
+    #icono{
+        font-size: 150%;
+    }
+    
+    .datosper{
+        text-align: justify;
+        font-size: 60%;
+        font-family:'Courier New', Courier, monospace;
+        font-weight: bold;
+    }
+    
+    .dyp{
+        margin-left: 7%;
+    }
+    
+    .contactame{
+        font-size: 90%;
+        font-family: 'Protest Strike', sans-serif;
+        margin-top: 13%;
+    }
+    
+    #wsp{
+        font-size: 150%;
+        color: rgb(1, 82, 1);
+    }
+
+    .proyectos{
+        font-size: 220%;
+        font-family: 'Protest Strike', sans-serif;
+        margin-top: 4%;
+        text-align: center;
+    }
+    
+    .pry-api{
+        width: 50%;
+        height: auto;
+        transition: transform 0.3s ease;
+    }
+    
+    .pry-api:hover{
+        transform: scale(1.03);
+    }
+    
+    .proyecTOS{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .txt3{
+        text-align: center;
+        display: flex;
+    }
+    
+    .columna1{
+        margin-top: 2.5%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .titulos{
+        text-align: center;
+    }
+    
+    .titulos-proyectos{
+        font-size: 130%;
+        font-family: 'Protest Strike', sans-serif;
+    }
+
+    .txt4{
+        text-align: center;
+    }
+    
+    .mis-skills{
+        font-size: 220%;
+        font-family: 'Protest Strike', sans-serif;
+        margin-top: 2%;
+    }
+    
+    .parrafo-skills{
+        font-size: 75%;
+        font-family:'Courier New', Courier, monospace;
+        font-weight: bold;
+    }
+    
+    .skills-lenguajes{
+        display: flex;
+        align-items: center;
+    }
+    
+    .txt-leng{
+        font-size: 115%;
+        font-family: 'Protest Strike', sans-serif;
+        margin-left: 32%;
+    }
+    
+    .lenguajess{
+        transition: transform 0.3s ease;
+        width: 6.5%;
+        margin-right: 0.5%;
+    }
+}
+
+@media screen and (min-width: 412px) and (max-width: 932px){
+    
+    nav {
+        background-color: #333;
+        padding: 3%;
+        text-align: center;
+        transition: transform 0.10s ease;
+    }
+
+    nav a {
+        padding: 5px;
+        font-size: 12px;	
+    }
+
+    .hola{
+        font-size: 400%;
+        font-family: 'Protest Strike', sans-serif;
+    }
+    
+    .mucho-gusto{
+        font-size: 320%;
+        font-family:'Courier New', Courier, monospace;
+        margin-top: -7%;
+        word-spacing: -10px;
+    }
+    
+    .nombre{
+        font-size: 350%;
+        font-family:'Courier New', Courier, monospace;
+        margin-top: -8.5%;
+        word-spacing: -10px;
+    }
+    
+    .developer{
+        font-size: 110%;
+        font-family: 'Protest Strike', sans-serif;
+        margin-top: -5%;
+    }
+
+    .parrafo1{
+        font-family:'Courier New', Courier, monospace;
+        font-weight: bold;
+        font-size: 65%;
+        letter-spacing: -0.5px; 
+        margin-top: -1%;
+    }
+
+    .foto1{
+        width: 40%;
+        height: auto;
+        border-radius: 50%;
+    }
+    
+    .lenguajes1{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .leng{
+        transition: transform 0.2s ease;
+        margin-top: 5%;
+        width: 8%;
+        margin-right: 1%;
+    }
+
+    .columna{
+        flex: 1;
+        padding: 2%;
+        display: flex;
+    }
+    
+    .foto2{
+        width: 35%;
+        padding-right: 11%;
+        margin-top: 55%;
+    }
+    
+    .soy-david{
+        font-size: 90%;
+        font-family: 'Protest Strike', sans-serif;
+        margin-top: 10%;
+    }
+    
+    .developer2{
+        font-size: 60%;
+        font-family: 'Protest Strike', sans-serif;
+        margin-top: -4%;
+    }
+    
+    .parrafo2{
+        font-size: 45%;
+        font-family:'Courier New', Courier, monospace;
+        font-weight: bold;
+        text-align: justify;
+    }
+    
+    .datos{
+        font-size: 90%;
+        font-family: 'Protest Strike', sans-serif;
+        margin-top: 6%;
+    }
+    
+    #icono{
+        font-size: 150%;
+    }
+    
+    .datosper{
+        text-align: justify;
+        font-size: 50%;
+        font-family:'Courier New', Courier, monospace;
+        font-weight: bold;
+    }
+    
+    .dyp{
+        margin-left: 7%;
+    }
+    
+    .contactame{
+        font-size: 70%;
+        font-family: 'Protest Strike', sans-serif;
+        margin-top: 13%;
+    }
+    
+    #wsp{
+        font-size: 110%;
+        color: rgb(1, 82, 1);
+    }
+
+    .proyectos{
+        font-size: 170%;
+        font-family: 'Protest Strike', sans-serif;
+        margin-top: 4%;
+        text-align: center;
+    }
+    
+    .pry-api{
+        width: 50%;
+        height: auto;
+        transition: transform 0.3s ease;
+    }
+    
+    .pry-api:hover{
+        transform: scale(1.03);
+    }
+    
+    .proyecTOS{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .txt3{
+        text-align: center;
+        display: flex;
+    }
+    
+    .columna1{
+        margin-top: 2.5%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .titulos{
+        text-align: center;
+    }
+    
+    .titulos-proyectos{
+        font-size: 90%;
+        font-family: 'Protest Strike', sans-serif;
+    }
+
+    .txt4{
+        text-align: center;
+    }
+    
+    .mis-skills{
+        font-size: 170%;
+        font-family: 'Protest Strike', sans-serif;
+        margin-top: 2%;
+    }
+    
+    .parrafo-skills{
+        font-size: 52%;
+        font-family:'Courier New', Courier, monospace;
+        font-weight: bold;
+    }
+    
+    .skills-lenguajes{
+        display: flex;
+        align-items: center;
+    }
+    
+    .txt-leng{
+        font-size: 90%;
+        font-family: 'Protest Strike', sans-serif;
+        margin-left: 25%;
+    }
+    
+    .lenguajess{
+        transition: transform 0.3s ease;
+        width: 6.5%;
+        margin-right: 0.3%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    nav {
+        background-color: #333;
+        padding: 2.5%;
+        text-align: center;
+        transition: transform 0.10s ease;
+    }
+
+    nav a {
+        padding: 2%;
+        font-size: 110%;	
+    }
+
+    .hola{
+        font-size: 550%;
+        font-family: 'Protest Strike', sans-serif;
+    }
+    
+    .mucho-gusto{
+        font-size: 330%;
+        font-family:'Courier New', Courier, monospace;
+        margin-top: -3%;
+        word-spacing: -10px;
+    }
+    
+    .nombre{
+        font-size: 360%;
+        font-family:'Courier New', Courier, monospace;
+        margin-top: -4.5%;
+        word-spacing: -10px;
+    }
+    
+    .developer{
+        font-size: 110%;
+        font-family: 'Protest Strike', sans-serif;
+        margin-top: -3%;
+    }
+
+    .parrafo1{
+        font-family:'Courier New', Courier, monospace;
+        font-weight: bold;
+        font-size: 120%;
+        letter-spacing: -0.5px; 
+        margin-top: 2%;
+    }
+
+    .foto1{
+        width: 25%;
+        height: auto;
+        border-radius: 50%;
+    }
+    
+    .lenguajes1{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .leng{
+        transition: transform 0.2s ease;
+        margin-top: 5%;
+        width: 5%;
+        margin-right: 1%;
+    }
+
+    .columna{
+        flex: 1;
+        padding: 2%;
+        display: flex;
+    }
+    
+    .foto2{
+        width: 55%;
+        height: 28%;
+        padding-right: 11%;
+        margin-top: 35%;
+    }
+    
+    .soy-david{
+        font-size: 180%;
+        font-family: 'Protest Strike', sans-serif;
+        margin-top: 10%;
+    }
+    
+    .developer2{
+        font-size: 100%;
+        font-family: 'Protest Strike', sans-serif;
+        margin-top: -4%;
+    }
+    
+    .parrafo2{
+        font-size: 76%;
+        font-family:'Courier New', Courier, monospace;
+        font-weight: bold;
+        text-align: justify;
+    }
+    
+    .datos{
+        font-size: 180%;
+        font-family: 'Protest Strike', sans-serif;
+        margin-top: 8%;
+    }
+    
+    #icono{
+        font-size: 190%;
+    }
+    
+    .datosper{
+        text-align: justify;
+        font-size: 110%;
+        font-family:'Courier New', Courier, monospace;
+        font-weight: bold;
+    }
+    
+    .dyp{
+        margin-left: 7%;
+    }
+    
+    .contactame{
+        font-size: 160%;
+        font-family: 'Protest Strike', sans-serif;
+        margin-top: 13%;
+    }
+    
+    #wsp{
+        font-size: 190%;
+        color: rgb(1, 82, 1);
+    }
+
+    .proyectos{
+        font-size: 170%;
+        font-family: 'Protest Strike', sans-serif;
+        margin-top: 4%;
+        text-align: center;
+    }
+    
+    .pry-api{
+        width: 50%;
+        height: auto;
+        transition: transform 0.3s ease;
+    }
+    
+    .pry-api:hover{
+        transform: scale(1.03);
+    }
+    
+    .proyecTOS{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .txt3{
+        text-align: center;
+        display: flex;
+    }
+    
+    .columna1{
+        margin-top: 2.5%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .titulos{
+        text-align: center;
+    }
+    
+    .titulos-proyectos{
+        font-size: 90%;
+        font-family: 'Protest Strike', sans-serif;
+    }
+
+    .txt4{
+        text-align: center;
+    }
+    
+    .mis-skills{
+        font-size: 170%;
+        font-family: 'Protest Strike', sans-serif;
+        margin-top: 4%;
+    }
+    
+    .parrafo-skills{
+        font-size: 105%;
+        font-family:'Courier New', Courier, monospace;
+        font-weight: bold;
+    }
+    
+    .skills-lenguajes{
+        display: flex;
+        align-items: center;
+    }
+    
+    .txt-leng{
+        font-size: 150%;
+        font-family: 'Protest Strike', sans-serif;
+        margin-left: 34%;
+    }
+    
+    .lenguajess{
+        transition: transform 0.3s ease;
+        width: 6%;
+        margin-right: 0.3%;
+    }
+}
+
+@media screen and (min-width: 1025px){
+    
+    nav {
+        background-color: #333;
+        padding: 1%;
+        text-align: center;
+        transition: transform 0.10s ease;
+    }
+
+    nav a {
+        color: white;
+        text-decoration: none;
+        padding: 1% 2%;
+        margin: 0 1%;
+        font-size: 100%;
+    }
+}
